@@ -30,6 +30,30 @@
 		<spring-ai.version>1.0.0-M6</spring-ai.version>
 	</properties>
 	<dependencies>
+		<!--mcp webflux -->
+		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-mcp-client-webflux-spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.bytedeco.javacpp-presets</groupId>
+			<artifactId>ffmpeg-platform</artifactId>
+			<version>4.1-1.4.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.bytedeco.javacpp-presets</groupId>
+			<artifactId>opencv-platform</artifactId>
+			<version>4.0.1-1.4.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacv-platform</artifactId>
+			<version>1.5.11</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
