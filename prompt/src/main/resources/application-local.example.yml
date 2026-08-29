@@ -1,0 +1,9 @@
+# 模板文件：复制为同目录 application-local.yml 并填入真实 api-key 后使用。
+# application-local.yml 已被 .gitignore 忽略，真实密钥只保留在本地，不会提交。
+# 本地敏感配置（真实密钥）——禁止提交到 git！
+# 说明：智谱 API Key 格式为 {id}.{secret}，Spring AI 的 ZhiPuAI starter 会自动
+# 用它生成带 JWT 签名的请求头，无需手工处理。
+spring:
+  ai:
+    zhipuai:
+      api-key: your-api-key-here
