@@ -10,5 +10,5 @@ package cn.hwyee.chat.service;
  */
 public interface IChatService {
 
-
+    String s = null;
 }
